@@ -7,5 +7,6 @@ def key_for_min_value(name_hash)
     smallest ||= value
     if smallest > value
       then smallest = value
+    end
   end
 end
